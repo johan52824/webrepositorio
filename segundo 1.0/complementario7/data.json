@@ -1,0 +1,22 @@
+{
+    "name": "menu",
+    "legend": "5ig:H",
+    "options" : [
+        {
+            "name": "comunidades",
+            "legend": "LSt?=",
+            "options" : [
+                {
+                    "name":"comunidad",
+                    "legend":"PLño%",
+                    "options" : []
+                }
+            ]
+        },
+        {
+            "name": "personal",
+            "legend": "z)ZkB",
+            "options": []
+        }
+    ]
+}

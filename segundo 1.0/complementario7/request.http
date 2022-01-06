@@ -1,0 +1,37 @@
+###
+GET http://localhost:8000/api/v1/comunity HTTP/1.1
+
+###
+GET http://localhost:8000/api/v1/pensum HTTP/1.1
+
+###
+POST http://localhost:8000/api/v1/comunity HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Electrofac",
+    "leader": "Leonel Anchundia",
+    "email": "team.electrofac@gmail.com",
+    "cell": "+593963682245",
+    "social-media": {
+        "facebook" : "@comunidadMantarraya",
+        "Instagram": "https://www.instagram.com/" 
+    }
+}
+
+###
+POST http://localhost:8000/api/v1/pensum HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "carrera":"IS",
+    "materias": [
+        {
+            "nombre": "FUNDAMENTOS DE TECNOLOGÍAS DE LA INF",
+            "codigo": "TDI-101",
+            "credito": 96,
+            "Nivel": 1,
+            "cadena": null
+        }
+    ]
+}

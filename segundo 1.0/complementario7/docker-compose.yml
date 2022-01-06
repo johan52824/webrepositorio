@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+
+  api:
+    build: .
+    depends_on:
+      - mongo
+    environment:
+      - PORT=8000
+      - MONGO_URL=mongodb://mongo:27017/test
+    ports:
+      - "8000:8000"
+      
+  mongo:
+    image: mongo
